@@ -4,4 +4,18 @@ body {
     font-weight: bold;
     background-color: aqua;
     color:blue;
+
+}
+button {
+    height: 50px;
+    width: 80px;
+    font-family: cursive;
+    font-weight: bold;
+    color:blue;
+    cursor: pointer;
+}
+
+.kuva1 {
+    width: 300px;
+    height: auto;
 }

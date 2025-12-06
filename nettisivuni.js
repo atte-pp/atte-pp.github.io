@@ -1,4 +1,8 @@
-function painallus() {
-    let nappi = document.getElementById("inp").value;
-    document.getElementById("teksti").textContent = nappi;
+function showPic() {
+    const container = document.getElementById("kuvaContainer");
+
+const img = document.createElement("img");
+img.src = "/kuvia/gorillakeskisormi.jpg";
+container.innerHTML = "";
+container.appendChild(img);
 }
