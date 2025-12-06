@@ -3,6 +3,7 @@ function showPic() {
 
 const img = document.createElement("img");
 img.src = "/kuvia/gorillakeskisormi.jpg";
+img.width = 650;
 container.innerHTML = "";
 container.appendChild(img);
 }
